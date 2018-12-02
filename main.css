@@ -10,9 +10,10 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url(background.jpg);
+  background-attachment: fixed;
 }
 
 nav{
@@ -45,7 +46,7 @@ header {
 }
 
 .container{
-	background-color: rgb(179, 179, 179, .75);
+	  background-color: rgb(179, 179, 179, .75);
     border-radius: 5px;
     padding: 20px;
     width:25%;
@@ -80,12 +81,21 @@ input[type=text],[type=password], [type=username] {
     display: block;
   }
 
+.item-container{
+    background-color: rgb(179, 179, 179, .75);
+    border-radius: 5px;
+    padding: 20px;
+    width:25%;
+    margin: 25px auto 25px auto;
+    display: block;
+}
+
 footer {
   background-color: #232323;
   color: white;
   height: 125px;
   padding: 10px;
-  
+
   text-align: center;
   right: 0;
   bottom: 0;
